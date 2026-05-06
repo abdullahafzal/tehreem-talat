@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tehreem-talat.pages.dev/sitemap.xml

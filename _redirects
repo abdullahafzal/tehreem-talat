@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects
+# All unknown paths return proper 404 (not 200)
+# Do not add redirect rules here that change the URL structure
+
+# This file intentionally left minimal.
+# Cloudflare Pages serves 404.html automatically for unmatched routes.
