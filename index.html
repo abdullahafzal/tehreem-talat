@@ -80,7 +80,7 @@ p{color:var(--muted);margin-bottom:14px;line-height:1.8}
 section{padding:76px 5%}
 .wrap{max-width:1100px;margin:0 auto}
 .label{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;font-weight:600;margin-bottom:10px}
-.label-sage{color:var(--sage)}
+.label-sage{color:#2A6648}
 .label-child{color:var(--child-accent)}
 .label-couple{color:var(--couple-accent)}
 .btn{display:inline-block;padding:13px 26px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer}
@@ -107,10 +107,11 @@ nav{background:var(--white);border-bottom:1px solid var(--border);padding:0 5%;p
 .hamburger.open span:nth-child(3){transform:translateY(-8.5px) rotate(-45deg)}
 
 /* MOBILE NAV DRAWER */
-.mobile-nav{display:none;position:fixed;top:64px;left:0;right:0;background:var(--white);border-bottom:1px solid var(--border);z-index:199;flex-direction:column;padding:16px 5% 20px;gap:4px;box-shadow:0 4px 20px rgba(0,0,0,0.08)}
+.mobile-nav{display:none;position:fixed;top:64px;left:0;right:0;bottom:0;background:#ffffff;z-index:9999;flex-direction:column;padding:8px 0 24px;gap:0;overflow-y:auto;box-shadow:0 8px 32px rgba(0,0,0,0.18)}
 .mobile-nav.open{display:flex}
-.mobile-nav a{font-size:15px;color:var(--text);padding:10px 0;border-bottom:1px solid var(--border);font-weight:500}
-.mobile-nav a:last-child{border-bottom:none;background:var(--sage);color:#fff !important;padding:12px 18px;border-radius:6px;text-align:center;margin-top:8px;font-weight:600}
+.mobile-nav a{font-size:16px;color:#2C3830;padding:14px 5%;border-bottom:1px solid #D4E3D8;font-weight:500;background:#ffffff;display:block;text-decoration:none}
+.mobile-nav a:hover{background:#EBF2ED;color:#2A4E3A}
+.mobile-nav a:last-child{border-bottom:none;background:#5C8A6E;color:#ffffff !important;padding:14px 5%;text-align:center;font-weight:600;margin:12px 5%;border-radius:8px;display:block}
 
 /* HERO */
 #hero{background:var(--white);padding:72px 5% 60px}
@@ -143,7 +144,7 @@ nav{background:var(--white);border-bottom:1px solid var(--border);padding:0 5%;p
 .timeline{margin-top:8px}
 .tl-item{padding:12px 0 12px 18px;border-left:2px solid var(--sage-mid);position:relative;margin-bottom:2px}
 .tl-item::before{content:'';width:10px;height:10px;background:var(--sage);border-radius:50%;position:absolute;left:-6px;top:16px}
-.tl-year{font-size:11px;color:var(--sage);font-weight:700;letter-spacing:1px;margin-bottom:2px}
+.tl-year{font-size:11px;color:#1E5C3A;font-weight:700;letter-spacing:1px;margin-bottom:2px}
 .tl-role{font-size:14px;font-weight:600;color:var(--text);margin:0 0 1px}
 .tl-place{font-size:13px;color:var(--muted);margin:0}
 
@@ -198,7 +199,7 @@ nav{background:var(--white);border-bottom:1px solid var(--border);padding:0 5%;p
 .rcard-text{font-size:14px;color:var(--muted);font-style:italic;margin-bottom:14px;line-height:1.7}
 .rcard-foot{display:flex;justify-content:space-between;align-items:center}
 .rcard-author{font-size:13px;font-weight:600;color:var(--text)}
-.rcard-src{font-size:11px;color:var(--sage);border:1px solid var(--sage-mid);padding:2px 8px;border-radius:10px}
+.rcard-src{font-size:11px;color:#1E5C3A;border:1px solid var(--sage-mid);padding:2px 8px;border-radius:10px;font-weight:600}
 .plinks{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
 .plink{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border:1.5px solid var(--border);border-radius:8px;font-size:13px;color:var(--muted);background:var(--white)}
 .plink strong{color:var(--sage-dark)}
@@ -212,31 +213,31 @@ nav{background:var(--white);border-bottom:1px solid var(--border);padding:0 5%;p
 .faq-q.open .faq-icon{transform:rotate(45deg);background:var(--sage);color:#fff}
 .faq-a{display:none;padding:0 0 18px;font-size:14px;color:var(--muted);line-height:1.8}
 .faq-a.open{display:block}
-.faq-cat{font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--sage);margin:32px 0 8px}
+.faq-cat{font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1E5C3A;margin:32px 0 8px}
 
 /* BOOKING */
 #booking{background:var(--sage-deep);padding:80px 5%;text-align:center}
 #booking h2{color:#fff;margin-bottom:12px}
-#booking .sub{color:rgba(255,255,255,0.8);max-width:520px;margin:0 auto 40px;font-size:15px}
+#booking .sub{color:rgba(255,255,255,0.92);max-width:520px;margin:0 auto 40px;font-size:15px}
 .fee-cards{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-bottom:40px}
 .fee-card{background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:12px;padding:24px 32px;color:#fff;min-width:200px}
-.fee-type{font-size:12px;color:rgba(255,255,255,0.75);margin-bottom:4px;text-transform:uppercase;letter-spacing:1px}
+.fee-type{font-size:12px;color:rgba(255,255,255,0.92);margin-bottom:4px;text-transform:uppercase;letter-spacing:1px}
 .fee-amount{font-size:28px;font-weight:700;margin-bottom:4px}
-.fee-note{font-size:12px;color:rgba(255,255,255,0.6)}
+.fee-note{font-size:12px;color:rgba(255,255,255,0.88)}
 .calendly-box{background:rgba(255,255,255,0.07);border:2px dashed rgba(255,255,255,0.2);border-radius:14px;padding:52px 40px;max-width:640px;margin:0 auto 28px}
 .calendly-box .cal-icon{font-size:36px;margin-bottom:12px}
 .calendly-box strong{color:rgba(255,255,255,0.85);font-size:16px;display:block;margin-bottom:6px}
-.calendly-box p{color:rgba(255,255,255,0.55);font-size:13px;margin:0}
+.calendly-box p{color:rgba(255,255,255,0.88);font-size:13px;margin:0}
 .phone-btn{display:inline-flex;align-items:center;gap:10px;background:#fff;color:var(--sage-deep);padding:14px 30px;border-radius:8px;font-weight:700;font-size:15px;margin-top:8px}
 
 /* FOOTER */
 footer{background:#1C2820;padding:48px 5% 28px}
 .footer-grid{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:36px}
-.footer-brand p{font-size:13px;color:rgba(255,255,255,0.5);margin-top:10px;line-height:1.7}
-.footer-col h4{font-size:13px;font-weight:600;color:rgba(255,255,255,0.8);margin-bottom:14px;letter-spacing:0.5px}
-.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.5);margin-bottom:8px}
+.footer-brand p{font-size:13px;color:rgba(255,255,255,0.72);margin-top:10px;line-height:1.7}
+.footer-col h4{font-size:13px;font-weight:600;color:rgba(255,255,255,0.92);margin-bottom:14px;letter-spacing:0.5px}
+.footer-col a{display:block;font-size:13px;color:rgba(255,255,255,0.72);margin-bottom:8px}
 .footer-bottom{max-width:1100px;margin:0 auto;border-top:1px solid rgba(255,255,255,0.08);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
-.footer-bottom p{font-size:12px;color:rgba(255,255,255,0.4);margin:0}
+.footer-bottom p{font-size:12px;color:rgba(255,255,255,0.65);margin:0}
 
 /* RESPONSIVE */
 @media(max-width:768px){
@@ -345,7 +346,7 @@ section{padding:52px 5%}
         <p>Ms. Tehreem Talat is a Consultant Clinical Psychologist with over 14 years of experience across some of Pakistan's most respected medical and educational institutions, including Jinnah Hospital, Fountain House, Punjab Institute of Mental Health (PIMH), and the Beaconhouse School System.</p>
         <p>She works with both adults and children, offering evidence-based therapy including Cognitive Behaviour Therapy (CBT), individual psychotherapy, psychological testing, and behavioural interventions. Her approach is warm, structured, and deeply personalised.</p>
         <p>Beyond clinical practice, Ms. Tehreem has contributed to the field as a visiting lecturer of Cognitive Psychology at Government College University, Lahore, bringing an academic depth that informs every aspect of her therapeutic work.</p>
-        <h3 style="margin-top:24px;margin-bottom:12px">Qualifications</h3>
+        <p style="font-size:18px;font-weight:600;color:var(--text);margin-top:24px;margin-bottom:12px">Qualifications</p>
         <ul class="qual-list">
           <li>MS - Clinical Psychology, Riphah International University</li>
           <li>ADCP - Advanced Diploma in Clinical Psychology, Punjab University (2011)</li>
@@ -353,7 +354,7 @@ section{padding:52px 5%}
         </ul>
       </div>
       <div>
-        <h3 style="margin-bottom:16px">Career Timeline</h3>
+        <p style="font-size:18px;font-weight:600;color:var(--text);margin-bottom:16px">Career Timeline</p>
         <div class="timeline">
           <div class="tl-item"><div class="tl-year">2008 to 2010</div><div class="tl-role">Clinical Psychologist</div><div class="tl-place">Jinnah Hospital, Lahore</div></div>
           <div class="tl-item"><div class="tl-year">2009</div><div class="tl-role">Clinical Psychologist</div><div class="tl-place">Child Welfare Centre, University of the Punjab</div></div>
