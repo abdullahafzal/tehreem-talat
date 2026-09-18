@@ -175,6 +175,19 @@ nav{background:var(--white);border-bottom:1px solid var(--border);padding:0 5%;p
 .highlight-box{background:#fff;border:1px solid #B8D4EA;border-radius:10px;padding:16px 20px;margin-top:20px}
 .highlight-box p{font-size:13px;color:var(--child-accent);margin:0;font-weight:500}
 
+
+/* KIDORA CALLOUT */
+.kidora-band{background:var(--white);padding:40px 5%;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.kidora-inner{max-width:1100px;margin:0 auto;display:flex;gap:28px;align-items:center;flex-wrap:wrap}
+.kidora-icon{width:56px;height:56px;border-radius:14px;background:#F4F6FB;border:1px solid #E7ECF6;
+  display:grid;place-items:center;flex:none}
+.kidora-icon img{width:36px;height:36px;border-radius:8px}
+.kidora-body{flex:1;min-width:260px}
+.kidora-body h3{font-size:16px;font-weight:700;color:var(--text);margin:0 0 5px}
+.kidora-body p{font-size:14px;color:var(--muted);margin:0;line-height:1.65}
+.kidora-body a{color:var(--child-accent);font-weight:600;text-decoration:none}
+.kidora-body a:hover{text-decoration:underline}
+
 /* COUPLES */
 #couples{background:var(--couple-bg)}
 .couples-list{list-style:none;margin:20px 0 28px}
@@ -541,6 +554,21 @@ section{padding:52px 5%}
   </div>
 </section>
 
+
+<!-- KIDORA TOOL -->
+<div class="kidora-band">
+  <div class="kidora-inner">
+    <div class="kidora-icon">
+      <img src="images/kidora-icon.png" alt="Kidora" width="36" height="36"
+           onerror="this.parentElement.textContent='🧒'">
+    </div>
+    <div class="kidora-body">
+      <h3>Check your child's milestones at home first</h3>
+      <p>Ms. Tehreem reviews the questions on <a href="https://kidora.pro/?ref=tehreem" target="_blank" rel="noopener">Kidora</a>, a free developmental screening tool for birth to six. It covers motor, language, cognition, social, self-help and sensory milestones and takes about eight minutes. If you are wondering whether to book an assessment, the report gives you something concrete to bring to the first session.</p>
+    </div>
+  </div>
+</div>
+
 <!-- COUPLES THERAPY -->
 <section id="couples">
   <div class="wrap">
@@ -715,6 +743,7 @@ section{padding:52px 5%}
       <a href="#child" onclick="smoothNav('child',event)">Autism Assessment</a>
       <a href="#couples" onclick="smoothNav('couples',event)">Couples Therapy</a>
       <a href="#services" onclick="smoothNav('services',event)">Psychological Testing</a>
+      <a href="https://kidora.pro/?ref=tehreem" target="_blank" rel="noopener">Free Milestone Check</a>
     </div>
     <div class="footer-col">
       <h4>Book a Session</h4>
