@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tehreem-talat.pages.dev/sitemap.xml
+# Images are fine to crawl (helps Google Images)
+Allow: /images/
+
+# Block git artifacts if they somehow leak through
+Disallow: /.git/
+
+Sitemap: https://tehreemtalat.com/sitemap.xml
