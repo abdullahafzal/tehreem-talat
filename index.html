@@ -49,7 +49,7 @@
     "addressCountry": "PK"
   },
   "openingHours": ["Tu 15:30-17:30", "We 15:30-17:30", "Th 15:30-17:30", "Sa 14:00-17:00"],
-  "priceRange": "PKR 3500-4500",
+  "priceRange": "PKR 4000-5000",
   "medicalSpecialty": "Clinical Psychology",
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -298,11 +298,11 @@ section{padding:52px 5%}
     <div class="logo">Ms. Tehreem Talat <span>Consultant Clinical Psychologist · Lahore</span></div>
   </a>
   <div class="nav-links">
-    <a href="#about" onclick="smoothNav('about',event)">About</a>
-    <a href="#services" onclick="smoothNav('services',event)">Services</a>
+    <a href="/about/">About</a>
+    <a href="/services/">Services</a>
     <a href="#approaches" onclick="smoothNav('approaches',event)">Approaches</a>
-    <a href="#child" onclick="smoothNav('child',event)">Child Psychology</a>
-    <a href="#couples" onclick="smoothNav('couples',event)">Couples Therapy</a>
+    <a href="/child-psychology/">Child Psychology</a>
+    <a href="/couples-therapy/">Couples Therapy</a>
     <a href="#reviews" onclick="smoothNav('reviews',event)">Reviews</a>
     <a href="#faq" onclick="smoothNav('faq',event)">FAQ</a>
     <a href="#booking" onclick="smoothNav('booking',event)" class="nav-book">Book Session</a>
@@ -316,11 +316,11 @@ section{padding:52px 5%}
 
 <!-- MOBILE NAV DRAWER -->
 <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
-  <a href="#about" onclick="smoothNav('about',event);closeMenu()">About</a>
-  <a href="#services" onclick="smoothNav('services',event);closeMenu()">Services</a>
+  <a href="/about/" onclick="closeMenu()">About</a>
+  <a href="/services/" onclick="closeMenu()">Services</a>
   <a href="#approaches" onclick="smoothNav('approaches',event);closeMenu()">Approaches</a>
-  <a href="#child" onclick="smoothNav('child',event);closeMenu()">Child Psychology</a>
-  <a href="#couples" onclick="smoothNav('couples',event);closeMenu()">Couples Therapy</a>
+  <a href="/child-psychology/" onclick="closeMenu()">Child Psychology</a>
+  <a href="/couples-therapy/" onclick="closeMenu()">Couples Therapy</a>
   <a href="#reviews" onclick="smoothNav('reviews',event);closeMenu()">Reviews</a>
   <a href="#faq" onclick="smoothNav('faq',event);closeMenu()">FAQ</a>
   <a href="#booking" onclick="smoothNav('booking',event);closeMenu()">Book Session</a>
@@ -388,6 +388,9 @@ section{padding:52px 5%}
           <li>ADCP - Advanced Diploma in Clinical Psychology, Punjab University (2011)</li>
           <li>BS Hons - Clinical Psychology, Punjab University (2010)</li>
         </ul>
+        <div style="margin-top:24px">
+          <a href="/about/" class="btn btn-outline">Full profile and career</a>
+        </div>
       </div>
       <div>
         <p style="font-size:18px;font-weight:600;color:var(--text);margin-bottom:16px">Career Timeline</p>
@@ -414,6 +417,7 @@ section{padding:52px 5%}
       <div class="label label-sage">What I Treat</div>
       <h2>Therapy and Psychology Services</h2>
       <p style="max-width:520px;margin:0 auto">From anxiety and depression to autism assessment and couples counselling, comprehensive psychological care for every need.</p>
+      <p style="margin-top:16px"><a href="/services/" class="btn btn-outline">See all therapy services</a></p>
     </div>
     <div class="tabs" role="tablist">
       <button class="tab on" role="tab" aria-selected="true" onclick="switchTab('a',this)">For Adults</button>
@@ -541,7 +545,7 @@ section{padding:52px 5%}
         </div>
         <div style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap">
           <a href="#booking" onclick="smoothNav('booking',event)" class="btn btn-child">Book Child Assessment</a>
-          <a href="#faq" onclick="smoothNav('faq',event)" class="btn btn-outline">Common Questions</a>
+          <a href="/child-psychology/" class="btn btn-outline">Child psychology guide</a>
         </div>
       </div>
       <div class="section-img">
@@ -593,7 +597,7 @@ section{padding:52px 5%}
         </div>
         <div style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap">
           <a href="#booking" onclick="smoothNav('booking',event)" class="btn btn-couple">Book Couples Session</a>
-          <a href="#faq" onclick="smoothNav('faq',event)" class="btn btn-outline">Common Questions</a>
+          <a href="/couples-therapy/" class="btn btn-outline">Couples therapy guide</a>
         </div>
       </div>
       <div class="section-img">
@@ -668,7 +672,7 @@ section{padding:52px 5%}
     <div class="faq-cat">Fees and Booking</div>
     <div class="faq-item">
       <button class="faq-q" onclick="faq(this)" aria-expanded="false">What are the session fees?<span class="faq-icon" aria-hidden="true">+</span></button>
-      <div class="faq-a">Online video consultation: PKR 3,500. In-clinic at Omar Hospital, Jail Road, Lahore: PKR 4,500. Fees are completely transparent with no hidden charges. Payment is made at the time of booking through the platform you use.</div>
+      <div class="faq-a">Online video consultation: PKR 4,000. In-clinic at Omar Hospital, Jail Road, Lahore: PKR 5,000. Fees are completely transparent with no hidden charges. Payment is made at the time of booking through the platform you use.</div>
     </div>
     <div class="faq-item">
       <button class="faq-q" onclick="faq(this)" aria-expanded="false">How do I book a session?<span class="faq-icon" aria-hidden="true">+</span></button>
@@ -714,8 +718,8 @@ section{padding:52px 5%}
   <h2>Ready to Take the First Step?</h2>
   <p class="sub">Sessions available online and at Omar Hospital, Jail Road, Lahore. Choose the time that works best for you.</p>
   <div class="fee-cards">
-    <div class="fee-card"><div class="fee-type">Online Video Session</div><div class="fee-amount">PKR 3,500</div><div class="fee-note">Tue / Wed / Thu · 3:30 to 5:30 PM</div></div>
-    <div class="fee-card"><div class="fee-type">In-Clinic · Omar Hospital</div><div class="fee-amount">PKR 4,500</div><div class="fee-note">Saturday · 2:00 to 5:00 PM · Jail Road, Lahore</div></div>
+    <div class="fee-card"><div class="fee-type">Online Video Session</div><div class="fee-amount">PKR 4,000</div><div class="fee-note">Tue / Wed / Thu · 3:30 to 5:30 PM</div></div>
+    <div class="fee-card"><div class="fee-type">In-Clinic · Omar Hospital</div><div class="fee-amount">PKR 5,000</div><div class="fee-note">Saturday · 2:00 to 5:00 PM · Jail Road, Lahore</div></div>
   </div>
   <div class="calendly-wrapper">
     <!-- Calendly inline widget begin -->
@@ -737,18 +741,18 @@ section{padding:52px 5%}
     </div>
     <div class="footer-col">
       <h4>Services</h4>
-      <a href="#services" onclick="smoothNav('services',event)">Anxiety and Depression</a>
-      <a href="#services" onclick="smoothNav('services',event)">OCD and Anger Management</a>
-      <a href="#child" onclick="smoothNav('child',event)">Child Psychology</a>
-      <a href="#child" onclick="smoothNav('child',event)">Autism Assessment</a>
-      <a href="#couples" onclick="smoothNav('couples',event)">Couples Therapy</a>
-      <a href="#services" onclick="smoothNav('services',event)">Psychological Testing</a>
+      <a href="/about/">About Ms. Tehreem</a>
+      <a href="/services/">Therapy Services</a>
+      <a href="/child-psychology/">Child Psychology</a>
+      <a href="/child-psychology/">Autism Assessment</a>
+      <a href="/couples-therapy/">Couples Therapy</a>
+      <a href="/services/">Psychological Testing</a>
       <a href="https://kidora.pro/?ref=tehreem" target="_blank" rel="noopener">Free Milestone Check</a>
     </div>
     <div class="footer-col">
       <h4>Book a Session</h4>
-      <a href="#booking" onclick="smoothNav('booking',event)">Online Session - PKR 3,500</a>
-      <a href="#booking" onclick="smoothNav('booking',event)">In-Clinic - PKR 4,500</a>
+      <a href="#booking" onclick="smoothNav('booking',event)">Online Session - PKR 4,000</a>
+      <a href="#booking" onclick="smoothNav('booking',event)">In-Clinic - PKR 5,000</a>
       <a href="tel:+923454098403">Call: 0345-4098403</a>
       <a href="https://www.oladoc.com/pakistan/lahore/psychologist/ms-tehreem-talat" target="_blank" rel="noopener">Book via oladoc</a>
       <a href="https://www.marham.pk/doctors/lahore/psychologist/ms-tehreem-talat" target="_blank" rel="noopener">Book via Marham</a>
